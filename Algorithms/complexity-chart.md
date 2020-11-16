@@ -14,3 +14,16 @@
 |   Radix Sort   |   O(nk)   |     O(nk)      |     O(nk)      |   O(n+k)    |
 |    Tim Sort    | O(nlogn)  |    O(nlogn)    |    O(nlogn)    |    O(n)     |
 |   Shell Sort   |   O(n)    | O((nlog(n))^2) | O((nlog(n))^2) |    O(1)     |
+
+Worst case Time Complexities for popular data structures
+
+|   Data Stucture    |  Access   |  Serach   |     Insertions      |       Delete        |
+|:------------------:|:---------:|:---------:|:-------------------:|:-------------------:|
+|       Array        |   O(1)    |   O(n)    |        O(n)         |        O(n)         |
+|       Stack        |   O(n)    |   O(n)    |        O(1)         |        O(1)         |
+|       Queue        |   O(n)    |   O(n)    |        O(1)         |        O(1)         |
+| Single Linked List |   O(n)    |   O(n)    | Begin:O(1),End:O(n) | Begin:O(1),End:O(n) |
+| Doubly Linked List |   O(n)    |   O(n)    | Begin:O(1),End:O(n) | Begin:O(1),End:O(n) |
+| Binary Search Tree |   O(n)    |   O(n)    |        O(n)         |        O(n)         |
+|       B-Tree       | O(log(n)) | O(log(n)) |      O(log(n))      |      O(log(n))      |
+|      AVL Tree      | O(log(n)) | O(log(n)) |      O(log(n))      |      O(log(n))      |
